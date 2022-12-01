@@ -161,6 +161,8 @@ module.exports = {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.json'),
           editUrl: `${repoUrl}/blob/master/website/`,
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           // sidebarCollapsible: false,
         },
         theme: {
